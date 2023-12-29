@@ -15,7 +15,6 @@ public class StringHash {
             table[i] = new LinkedList<>();
         }
     }
-
     public int hashFunction(String key) {
         return key.charAt(0) % table.length;
     }
